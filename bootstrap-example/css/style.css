@@ -1,0 +1,17 @@
+.special{
+    display: flex;
+    margin: 20px;
+    border-radius: 20px;
+}
+.fast{
+    padding: 0px 50px;
+}
+.health{
+    padding: 0 50px;
+}
+.chosen{
+    padding: 0 50px;
+}
+.row{
+    display: flex;
+}
