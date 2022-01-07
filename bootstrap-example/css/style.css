@@ -1,8 +1,8 @@
 .special{
     display: flex;
-    margin: 20px;
     box-shadow: 10px 10px 80px rgb(230, 227, 227);
     border-radius: 20px;
+    margin: 30px;
 }
 .fast{
     padding: 0px 50px;
@@ -15,4 +15,79 @@
 }
 .row{
     display: flex;
+}
+.btn-primary{
+    color: white;
+    background-color: #F58A07;
+    border: none;
+    border-radius: 20px;
+}
+.card-head{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+.card-head h2{
+    border: 5px solid #F58A07;
+    padding: 0px 0px 0px 15px;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    margin: 0px;
+}
+.price{
+    display: flex;
+}
+.price-now{
+    padding: 10px;
+}
+.carousel-inner{
+    display: 100%;
+}
+.food-card{
+    border: 0;
+    box-shadow: 0 0 20px rgba(0,0,0,.05);
+    border-radius: 20px;
+}
+.food-card .card-img-top{
+    padding: 15px;
+}
+.navbar-logo img{
+    height: 40px;
+}
+body{
+    display: 100%;
+    text-align: center;
+}
+.container{
+    max-width: 1280px;
+}
+.foot-menu{
+    text-decoration: underline;
+}
+.foot-contact .contact{
+    text-decoration: underline;
+}
+.foot{
+    background-image: url(../images/orange-cover.jpeg);
+    color: white;
+   
+}
+.footer{
+    width: 60%;
+    justify-content: space-between;
+    font-size: 16px;
+}
+hr{
+    color: white;
+    font-weight: 10px;
+}
+.foot-bye{
+    width: 60%;
+}
+.foot-end{
+    justify-content: space-between;
+}
+.foot-endless p{
+    margin-right: 0px;
 }
